@@ -7,7 +7,7 @@ class GradeCalculator
       System.out.println("Enter Number of Subjects:");
       int n=s.nextInt();
       double totalmarks=0;
-      for(inyt i=0;i<n;i++)
+      for(int i=0;i<n;i++)
         {
           System.out.println("Enter marks for subject "+(i+1)+":");
           double marks=s.nextDouble();
@@ -22,7 +22,7 @@ class GradeCalculator
       }
       else if(average>=80)
       {
-        System.outy.println("Grade:B");
+        System.out.println("Grade:B");
       }
       else if(average>=70)
       {
